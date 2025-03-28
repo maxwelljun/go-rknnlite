@@ -5,11 +5,12 @@ package main
 
 import (
 	"flag"
-	"github.com/swdee/go-rknnlite"
-	"gocv.io/x/gocv"
 	"image"
 	"log"
 	"os"
+
+	"github.com/maxwelljun/go-rknnlite"
+	"gocv.io/x/gocv"
 )
 
 func main() {

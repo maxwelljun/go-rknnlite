@@ -1,10 +1,11 @@
 package render
 
 import (
-	"github.com/swdee/go-rknnlite/tracker"
-	"gocv.io/x/gocv"
 	"image"
 	"image/color"
+
+	"github.com/maxwelljun/go-rknnlite/tracker"
+	"gocv.io/x/gocv"
 )
 
 // TrailStyle defines the parameters used for rendering the trail style

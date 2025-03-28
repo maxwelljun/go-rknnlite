@@ -1,7 +1,7 @@
 package postprocess
 
 import (
-	"github.com/swdee/go-rknnlite"
+	"github.com/maxwelljun/go-rknnlite"
 )
 
 // LPRNet defines the struct for LPRNet model inference post processing

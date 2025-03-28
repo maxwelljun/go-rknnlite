@@ -7,14 +7,15 @@ package main
 import (
 	"flag"
 	"fmt"
-	"github.com/swdee/go-rknnlite"
-	"github.com/swdee/go-rknnlite/postprocess"
-	"github.com/swdee/go-rknnlite/preprocess"
-	"github.com/swdee/go-rknnlite/render"
-	"gocv.io/x/gocv"
 	"log"
 	"os"
 	"time"
+
+	"github.com/maxwelljun/go-rknnlite"
+	"github.com/maxwelljun/go-rknnlite/postprocess"
+	"github.com/maxwelljun/go-rknnlite/preprocess"
+	"github.com/maxwelljun/go-rknnlite/render"
+	"gocv.io/x/gocv"
 )
 
 func main() {

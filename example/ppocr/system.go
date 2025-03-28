@@ -3,15 +3,16 @@ package main
 import (
 	"flag"
 	"fmt"
-	"github.com/swdee/go-rknnlite"
-	"github.com/swdee/go-rknnlite/postprocess"
-	"gocv.io/x/gocv"
 	"image"
 	"log"
 	"math"
 	"os"
 	"sort"
 	"time"
+
+	"github.com/maxwelljun/go-rknnlite"
+	"github.com/maxwelljun/go-rknnlite/postprocess"
+	"gocv.io/x/gocv"
 )
 
 func main() {

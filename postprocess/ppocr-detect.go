@@ -2,13 +2,14 @@ package postprocess
 
 import (
 	"fmt"
-	clipper "github.com/ctessum/go.clipper"
-	"github.com/swdee/go-rknnlite"
-	"gocv.io/x/gocv"
 	"image"
 	"image/color"
 	"math"
 	"sort"
+
+	clipper "github.com/ctessum/go.clipper"
+	"github.com/maxwelljun/go-rknnlite"
+	"gocv.io/x/gocv"
 )
 
 const (

@@ -2,8 +2,9 @@ package postprocess
 
 import (
 	"fmt"
-	"github.com/swdee/go-rknnlite"
 	"math"
+
+	"github.com/maxwelljun/go-rknnlite"
 )
 
 // PPOCRRecognise defines the struct for the PPOCR model inference post processing

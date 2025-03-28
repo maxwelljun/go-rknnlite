@@ -1,8 +1,8 @@
 package postprocess
 
 import (
-	"github.com/swdee/go-rknnlite"
-	"github.com/swdee/go-rknnlite/preprocess"
+	"github.com/maxwelljun/go-rknnlite"
+	"github.com/maxwelljun/go-rknnlite/preprocess"
 )
 
 // YOLOv11 defines the struct for YOLOv11 model inference post processing

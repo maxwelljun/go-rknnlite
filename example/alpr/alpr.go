@@ -7,14 +7,6 @@ package main
 import (
 	"flag"
 	"fmt"
-	"github.com/swdee/go-rknnlite"
-	"github.com/swdee/go-rknnlite/postprocess"
-	"github.com/swdee/go-rknnlite/preprocess"
-	"github.com/swdee/go-rknnlite/render"
-	"gocv.io/x/gocv"
-	"golang.org/x/image/font"
-	"golang.org/x/image/font/opentype"
-	"golang.org/x/image/math/fixed"
 	"image"
 	"image/color"
 	"image/draw"
@@ -22,6 +14,15 @@ import (
 	"os"
 	"strings"
 	"time"
+
+	"github.com/maxwelljun/go-rknnlite"
+	"github.com/maxwelljun/go-rknnlite/postprocess"
+	"github.com/maxwelljun/go-rknnlite/preprocess"
+	"github.com/maxwelljun/go-rknnlite/render"
+	"gocv.io/x/gocv"
+	"golang.org/x/image/font"
+	"golang.org/x/image/font/opentype"
+	"golang.org/x/image/math/fixed"
 )
 
 const (

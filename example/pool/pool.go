@@ -6,8 +6,6 @@ package main
 
 import (
 	"flag"
-	"github.com/swdee/go-rknnlite"
-	"gocv.io/x/gocv"
 	"image"
 	"log"
 	"os"
@@ -15,6 +13,9 @@ import (
 	"strings"
 	"sync"
 	"time"
+
+	"github.com/maxwelljun/go-rknnlite"
+	"gocv.io/x/gocv"
 )
 
 func main() {
