@@ -4,7 +4,7 @@ go 1.21
 
 require (
 	github.com/ctessum/go.clipper v0.1.2
-	gocv.io/x/gocv v0.36.1
+	gocv.io/x/gocv v0.29.0
 	golang.org/x/image v0.16.0
 	gonum.org/v1/gonum v0.15.0
 )
