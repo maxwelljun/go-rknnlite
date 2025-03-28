@@ -1,4 +1,4 @@
-module github.com/swdee/go-rknnlite
+module github.com/maxwelljun/go-rknnlite
 
 go 1.21
 
