@@ -78,6 +78,8 @@ var (
 	White  = color.RGBA{R: 255, G: 255, B: 255, A: 255}
 	Yellow = color.RGBA{R: 255, G: 255, B: 50, A: 255}
 	Pink   = color.RGBA{R: 255, G: 0, B: 255, A: 255}
+	Red    = color.RGBA{R: 255, G: 56, B: 56, A: 255}
+	Green  = color.RGBA{R: 26, G: 147, B: 52, A: 255}
 
 	// postPalette are the colors used for the skeleton/pose
 	posePalette = []color.RGBA{
