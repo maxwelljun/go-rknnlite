@@ -9,9 +9,11 @@ C API interface.  It aims to provide lite bindings in the spirit of the closed s
 Python lite bindings used for running AI Inference models on the Rockchip NPU 
 via the RKNN software stack.
 
-These bindings have only been tested on the [RK3588](https://www.rock-chips.com/a/en/products/RK35_Series/2022/0926/1660.html)
-(specifically the Radxa Rock Pi 5B) but should work on other RK3588 based SBC's.
-It should also work with other models in the RK35xx series supported by the RKNN Toolkit2.
+These bindings are tested on the [RK3588](https://www.rock-chips.com/a/en/products/RK35_Series/2022/0926/1660.html)
+(specifically the Radxa Rock Pi 5B) and work with other RK3588 based SBC's.
+
+Other users have reported running the bindings and examples on other models in 
+the RK35xx series supported by the RKNN Toolkit2.
 
 
 ## Usage
@@ -213,6 +215,9 @@ Ensure you use Go Modules so your code is not effected, but be aware any updates
 require minor changes to your code to support the latest version.
 
 Versioning of the library will be added at a later date once the feature set stablises.
+
+See the [CHANGES](CHANGES.md) file for a list of breaking changes.
+
 
 
 ## Reference Material
